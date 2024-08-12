@@ -121,7 +121,7 @@ export const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="phone"
             label="Phone Number"
-            placeholder="+55 (11) 1234-5678"
+            placeholder="+1 (123) 456-5678"
             value={user?.phone}
           />
         </div>
@@ -194,7 +194,7 @@ export const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="emergencyContactNumber"
             label="Emergency Contact Number"
-            placeholder="+55 (11) 1234-5678"
+            placeholder="+1 (123) 456-5678"
           />
         </div>
 
